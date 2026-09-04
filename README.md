@@ -2,7 +2,6 @@
 
 [![Language: C](https://img.shields.io/badge/Language-C-A8B9CC?logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Standard: C11](https://img.shields.io/badge/Standard-C11-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-[![Platform: POSIX](https://img.shields.io/badge/Platform-POSIX-333333?logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/POSIX)
 [![Build: cc](https://img.shields.io/badge/Build-cc-2E7D32)](https://clang.llvm.org/)
 
 A terminal-based Ludo game implemented in C. The project models a four-player game with four pieces per player, randomized dice rolls, piece movement, captures, home completion, and final rankings.
@@ -42,7 +41,7 @@ This project was built to strengthen my understanding of procedural programming,
 ### Compile
 
 ```bash
-cc -Wall -Wextra -std=c11 main.c game_logic.c -o ludo
+gcc main.c game_logic.c -o ludo
 ```
 
 ### Run
@@ -136,6 +135,6 @@ Building this game improved my ability to:
 - Add a portable timing abstraction and optional no-delay mode
 - Support a saved game state or replay log
 
-## Author
+## Conclusion
 
 This project demonstrates my approach to learning by building: start with a concrete problem, model the state carefully, validate the behavior, and document the technical decisions behind the implementation.
