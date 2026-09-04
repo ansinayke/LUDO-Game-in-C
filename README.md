@@ -1,8 +1,8 @@
 # LUDO - Console Board Game in C
 
-[![Language: C](https://img.shields.io/badge/Language-C-A8B9CC?logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Standard: C11](https://img.shields.io/badge/Standard-C11-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-[![Build: cc](https://img.shields.io/badge/Build-cc-2E7D32)](https://clang.llvm.org/)
+[![Language: C11](https://img.shields.io/badge/Standard-C11-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
+[![Libraries: Standard C](https://img.shields.io/badge/Language-C-A8B9CC?logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Build: GNU](https://img.shields.io/badge/Build-cc-2E7D32)](https://clang.llvm.org/)
 
 A terminal-based Ludo game implemented in C. The project models a four-player game with four pieces per player, randomized dice rolls, piece movement, captures, home completion, and final rankings.
 
